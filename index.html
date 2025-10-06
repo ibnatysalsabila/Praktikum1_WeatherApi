@@ -129,3 +129,44 @@
       to { transform: rotate(360deg); }
     }
   </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Weather App</h1>
+    
+    <label>📍 Temukan Lokasi Anda</label>
+    <input type="text" id="lokasi" placeholder="Masukkan nama kota...">
+    <button id="cari">Search</button>
+    
+    <div class="loader" id="loader">
+      <div class="spinner"></div>
+    </div>
+    
+    <div class="error" id="error"></div>
+    
+    <div class="result" id="result">
+      <div class="temp" id="suhu"></div>
+      <div class="data-item">
+        <span class="data-label">Negara</span>
+        <span class="data-value" id="negara"></span>
+      </div>
+      <div class="data-item">
+        <span class="data-label">Provinsi</span>
+        <span class="data-value" id="provinsi"></span>
+      </div>
+      <div class="data-item">
+        <span class="data-label">Kecamatan</span>
+        <span class="data-value" id="kecamatan"></span>
+      </div>
+      <div class="data-item">
+        <span class="data-label">Longitude</span>
+        <span class="data-value" id="longitude"></span>
+      </div>
+      <div class="data-item">
+        <span class="data-label">Latitude</span>
+        <span class="data-value" id="latitude"></span>
+      </div>
+    </div>
+  </div>
+  
+  
